@@ -1,0 +1,34 @@
+credentials:
+  andrew:
+    username: YOUR_USERNAME_HERE
+    password: YOUR_PASSWORD_HERE
+
+machines:
+  cmu-linux-15:
+    host: linux-15.andrew.cmu.edu
+    creds: andrew
+    tmpdir: /tmp
+    tmpdir_type: local
+    workdir: /afs/andrew.cmu.edu/usr/{username}
+    workdir_type: afs
+  cmu-linux-16:
+    host: linux-16.andrew.cmu.edu
+    creds: andrew
+    tmpdir: /tmp
+    tmpdir_type: local
+    workdir: /afs/andrew.cmu.edu/usr/{username}
+    workdir_type: afs
+  cmu-linux-17:
+    host: linux-17.andrew.cmu.edu
+    creds: andrew
+    tmpdir: /tmp
+    tmpdir_type: local
+    workdir: /afs/andrew.cmu.edu/usr/{username}
+    workdir_type: afs
+  cmu-linux-18:
+    host: linux-18.andrew.cmu.edu
+    creds: andrew
+    tmpdir: /tmp
+    tmpdir_type: local
+    workdir: /afs/andrew.cmu.edu/usr/{username}
+    workdir_type: afs

@@ -1,0 +1,26 @@
+# Remove this line once you have added your file config
+is_template: true
+
+credentials:
+  USER-afs:
+    username: USER
+    password: PASSWORD
+  USER-ssh:
+    username: USER
+    sshkey: /Users/USER/.ssh/id_rsa
+
+machines:
+  cmu-linux-15:
+    host: linux-15.andrew.cmu.edu
+    creds: USER-afs
+    tmpdir: /tmp
+    tmpdir_type: local
+    workdir: /afs/andrew.cmu.edu/usr/USER
+    workdir_type: afs
+  finger:
+    host: my-machine.local
+    creds: USER-ssh
+    tmpdir: /tmp
+    tmpdir_type: local
+    workdir: /tmp
+    workdir_type: local

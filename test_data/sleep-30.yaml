@@ -1,0 +1,2 @@
+name: sleep-30
+entry_cmd: echo p1; sleep 5; echo p2; sleep 5; echo p3; sleep 5; echo p4; sleep 15; echo done;

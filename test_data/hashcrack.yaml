@@ -1,0 +1,3 @@
+name: hashcrack
+results_dir_remote: "{workdir}/"
+entry_cmd: python3 hashcrack.py {tgt_hash} "{workdir}/crack.txt"
